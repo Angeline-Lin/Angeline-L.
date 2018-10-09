@@ -3,17 +3,28 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int rock = 1;
-        int paper = 2;
-        int scissors = 3;
-        String wordy
+
+        int r = 1;
+        int p = 2;
+        int s = 3;
+
         Scanner in = new Scanner(System.in);
         System.out.println("enter choice: ");
-        int wordy = reader.nextInt();
-        if (wordy > scissors) {
+        s = in.nextInt();
+
+        if (s == r) {
             System.out.println("ok");
-        } else {
-            System.out.println("boo");
+        }else{
+            System.out.println("booooo");
         }
+
+        if (r > 9) {
+            System.out.println("great");
+        }else {
+            System.out.println("try again");
+        }
+
+
+
     }
 }
