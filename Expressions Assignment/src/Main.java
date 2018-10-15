@@ -4,8 +4,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-
-        int word = 1;
+        int word;
 
         //user input
         Scanner in = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class Main {
         rand.nextInt(3);
         int enemy = rand.nextInt(3)+1;
 
-        //rock,paper,scissors game
+        //user choice
         if (word == 1) {
             System.out.println("rock");
         }else if(word == 2){
@@ -47,12 +46,13 @@ public class Main {
         }else if(word < enemy && word == 2){
             System.out.println("You lose");
         }else if(word > enemy && word == 2){
-            System.out.println("You win");
+            System.out.println("You Win");
         }else if(word > enemy && word == 3 && enemy == 1){
             System.out.println("You lose");
         }else if(word > enemy && word == 3 && enemy == 2){
-            System.out.println("You win");
+            System.out.println("You Win!");
+        }
+
         }
 
     }
-}
