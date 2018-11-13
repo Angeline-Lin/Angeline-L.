@@ -48,22 +48,22 @@ public class Main {
                 System.out.println("Try again");
             } else if (word < enemy && word == 1 && enemy == 3) {
                 System.out.println("You Win");
-                System.out.println(Wins++);
+                Wins++;
             } else if (word < enemy && word == 1 && enemy == 2) {
                 System.out.println("You lose");
-                System.out.println(Losses++);
+                Losses++;
             } else if (word < enemy && word == 2) {
                 System.out.println("You lose");
-                System.out.println(Losses++);
+                Losses++;
             } else if (word > enemy && word == 2) {
                 System.out.println("You Win");
-                System.out.println(Wins++);
+                Wins++;
             } else if (word > enemy && word == 3 && enemy == 1) {
                 System.out.println("You lose");
-                System.out.println(Losses++);
+                Losses++;
             } else if (word > enemy && word == 3 && enemy == 2) {
                 System.out.println("You Win!");
-                System.out.println(Wins++);
+                Wins++;
             }
             System.out.println("--------------------------------");}//while loop
 
