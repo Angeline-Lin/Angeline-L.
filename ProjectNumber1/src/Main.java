@@ -14,12 +14,18 @@ public class Main {
     //Code you problem number two here
     static int problemTwo(String s){
         int answer = 0;
-        String word = "bob";
+        String bob = "bob";
 
-        for(int i = 0; i<s.length();i++){
-            if()}
+        if(i = s.length - 2){
+        break;}
+        
+        for(int i = 0; i < s.length(); i++){
+            if(bob.contains(s.substring(i, i + 3)){
+               answer++;
+            }
+               
+               }
 
-        answer++;
         return answer;
     }
     //Code your solution to problem number 3 here
