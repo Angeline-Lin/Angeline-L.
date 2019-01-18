@@ -30,7 +30,13 @@ public class Main {
     }
     //Code your solution to problem number 3 here
     static String problemThree(String s){
-        //your code here
+        
+        For(int i = 0; i < s.length){
+        
+        
+        }
+        
+        
         return s;
     }
     public static void main(String[] args) {
@@ -41,7 +47,7 @@ public class Main {
         The tests will put your method through several different Strings to test
         all possible cases.  If you have 100% success then there is no bugs in your methods.
          */
-        String s = "bobjdigid";
+        String s = "abd";
         problemTwo(s);
     }
 }
