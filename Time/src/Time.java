@@ -10,7 +10,7 @@ public class Time {
         this.second = second;
     }
 
-    //get h m s
+    //get hour, minute, second
     public int getHour() {
         return hour;
     }
@@ -23,7 +23,7 @@ public class Time {
         return second;
     }
 
-    //set h m s
+    //set hour, minute, second
     public void setHour() {
         if (hour >= 0 && hour <= 23) {
             setHour();
