@@ -24,6 +24,7 @@ public class Teacher {
 
         return subject;
 }
+    //toString
     public String toString(){
 
         String teacher = name + subject;
