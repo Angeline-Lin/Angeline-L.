@@ -32,7 +32,7 @@ public class Student {
     public int getNum() {
         return num;
     }
-
+    //toString
     public String toString(){
         String student = name + grade;
         return student;
